@@ -9,7 +9,7 @@ headers = {'User-Agent': agent}
 base = "https://www.azlyrics.com/"
 
 #Set the variable to the name of the artist that you want to download
-artist_name = "juicewrld"
+artist_name = "xxxtentacion"
 
 def artists(letter):
     if letter.isalpha() and len(letter) is 1:
@@ -34,7 +34,7 @@ def songs(artist):
     url = base + first_char + "/" + artist + ".html"
     req = requests.get(url, headers=headers)
 
-    artist = {
+    artist =
         'artist': artist,
         'albums': {}
     }
